@@ -2,6 +2,7 @@
 
 > **Learning that bridges the gap.** An immersive, interactive single-page explorer designed for university students to bridge the cognitive divide between fields of study.
 
+check it out @ https://praanesh-s.github.io/Crossfield/
 ---
 
 ## 🌌 The Vision
