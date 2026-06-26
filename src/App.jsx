@@ -75,9 +75,9 @@ const CURRICULUM_DATA = {
       desc: 'The math behind whether a business is actually working.',
       level: 'Beginner',
       resources: [
-        { type: 'Video', label: 'Khan Academy Microeconomics', url: 'https://www.khanacademy.org/economics-finance-domain/microeconomics' },
+        { type: 'Video', label: 'Khan Academy Microeconomics Series', url: 'https://www.khanacademy.org/economics-finance-domain/microeconomics' },
         { type: 'Article', label: "Paul Graham: Do Things That Don't Scale", url: 'https://paulgraham.com/ds.html' },
-        { type: 'Book', label: 'The Lean Startup (Ries)', url: 'https://www.amazon.com/Lean-Startup-Entrepreneurs-Continuous-Innovation/dp/0307887898' }
+        { type: 'Book', label: 'The Lean Startup (Ries)', url: 'https://theleanstartup.com/principles' }
       ],
       whyMatters: 'As an engineer, you build features that cost computational power and developer hours. Understanding unit economics helps you evaluate whether your infrastructure decisions make the company money or drain its capital. It connects API latency directly to customer acquisition costs and lifetime value.'
     },
@@ -86,8 +86,8 @@ const CURRICULUM_DATA = {
       desc: 'How startups raise money and what it costs them.',
       level: 'Beginner',
       resources: [
-        { type: 'Video', label: 'YC Startup School: Funding 101', url: 'https://www.youtube.com/watch?v=mEocvG2Pqzo' },
-        { type: 'Book', label: 'Venture Deals by Brad Feld', url: 'https://www.amazon.com/Venture-Deals-Smarter-Investment-Attorney/dp/111959482X' }
+        { type: 'Video', label: 'YC Library: How to Raise Seed Money', url: 'https://www.ycombinator.com/library' },
+        { type: 'Book', label: 'Venture Deals by Brad Feld', url: 'https://www.venturedeals.com/' }
       ],
       whyMatters: 'Knowing how startups raise money gives you insight into the timeline and milestones your software development team needs to hit. It helps you understand why features are prioritized before a funding round and what dilution means for your employee stock options. This knowledge prepares you to participate in high-level roadmap decisions.'
     },
@@ -96,7 +96,7 @@ const CURRICULUM_DATA = {
       desc: 'Understanding profit & loss statements.',
       level: 'Intermediate',
       resources: [
-        { type: 'Video', label: 'HBR Finance Basics', url: 'https://www.youtube.com/watch?v=uYL815WvN3s' },
+        { type: 'Video', label: 'HBR Guide: Managing Financial Statements', url: 'https://www.youtube.com/@harvardbusinessreview/search?query=financial+statements' },
         { type: 'Book', label: 'Financial Intelligence for IT', url: 'https://store.hbr.org/product/financial-intelligence-for-it-professionals-what-you-really-need-to-know-about-the-numbers/13149' }
       ],
       whyMatters: 'A profit and loss statement shows the financial health of the code you write. By reading a P&L, you can see how research and development costs affect the operating margin. It helps you justify refactoring or architecture migration proposals to non-technical executives in terms of direct savings.'
@@ -107,7 +107,7 @@ const CURRICULUM_DATA = {
       level: 'Beginner',
       resources: [
         { type: 'Article', label: "Lenny's Newsletter: GTM Handbook", url: 'https://www.lennysnewsletter.com/p/go-to-market-gtm-strategy' },
-        { type: 'Book', label: 'Crossing the Chasm', url: 'https://www.amazon.com/Crossing-Chasm-3rd-Marketing-High-Tech/dp/0062353947' }
+        { type: 'Book', label: 'Crossing the Chasm', url: 'https://wikipedia.org/wiki/Crossing_the_Chasm' }
       ],
       whyMatters: 'An amazing codebase is useless if no users can find or use it. Understanding GTM helps you align product releases, feature flags, and beta testing with marketing campaigns. It teaches you how technical execution impacts initial user onboarding and conversion funnels.'
     },
@@ -116,8 +116,8 @@ const CURRICULUM_DATA = {
       desc: 'Principles that work in any deal.',
       level: 'Beginner',
       resources: [
-        { type: 'Video', label: 'Chris Voss Negotiation Tactics', url: 'https://www.youtube.com/watch?v=guZa7mN1AD0' },
-        { type: 'Book', label: 'Never Split the Difference', url: 'https://www.amazon.com/Never-Split-Difference-Negotiating-As-If-Your-Life-Depended-On-It/dp/0062407805' }
+        { type: 'Video', label: 'Chris Voss: Negotiation Masterclass Series', url: 'https://www.youtube.com/results?search_query=chris+voss+negotiation+fundamentals' },
+        { type: 'Book', label: 'Never Split the Difference', url: 'https://wikipedia.org/wiki/Never_Split_the_Difference' }
       ],
       whyMatters: 'Whether you are advocating for a higher budget, debating system architecture, or seeking a promotion, negotiation is a core engineering skill. These principles help you find win-win solutions that satisfy technical requirements and business constraints. It changes how you communicate tradeoffs in code design reviews.'
     },
@@ -127,7 +127,7 @@ const CURRICULUM_DATA = {
       level: 'Beginner',
       resources: [
         { type: 'Article', label: 'Marc Andreessen: Guide to PMF', url: 'https://pmarchive.com/guide_to_startups_part4.html' },
-        { type: 'Book', label: 'The Mom Test', url: 'https://www.amazon.com/Mom-Test-customers-business-everyone/dp/149216074X' }
+        { type: 'Book', label: 'The Mom Test', url: 'https://www.momtestbook.com/' }
       ],
       whyMatters: "Early stage software requires rapid iteration. Knowing the indicators of PMF ensures you don't over-engineer scalable systems before knowing what the customer actually wants. It teaches you to write disposable code for user validation before building robust infrastructure."
     },
@@ -136,8 +136,8 @@ const CURRICULUM_DATA = {
       desc: 'How high-growth companies set and track goals.',
       level: 'Beginner',
       resources: [
-        { type: 'Video', label: 'Ted Talk: Measure What Matters', url: 'https://www.ted.com/talks/john_doerr_why_the_secret_to_success_is_setting_the_right_goals' },
-        { type: 'Book', label: 'Measure What Matters (Doerr)', url: 'https://www.amazon.com/Measure-What-Matters-Google-Foundation/dp/0525536224' }
+        { type: 'Video', label: 'John Doerr TED Talk: Why OKRs Work', url: 'https://www.ted.com/talks/john_doerr_why_the_secret_to_success_is_setting_the_right_goals' },
+        { type: 'Book', label: 'Measure What Matters (Doerr)', url: 'https://www.whatmatters.com/' }
       ],
       whyMatters: 'OKRs connect your daily code commits to the company\'s highest strategic objectives. Understanding how they are structured allows you to formulate technical goals that align with business growth. It helps you measure your contribution beyond lines of code or story points.'
     },
@@ -147,7 +147,7 @@ const CURRICULUM_DATA = {
       level: 'Intermediate',
       resources: [
         { type: 'Article', label: 'Carta: Cap Table 101 Guide', url: 'https://carta.com/blog/what-is-a-cap-table/' },
-        { type: 'Video', label: 'Cap Table Math Explained', url: 'https://www.youtube.com/watch?v=JmBae4GkK7w' }
+        { type: 'Video', label: 'Syllabus: Startup Cap Tables Explained', url: 'https://www.youtube.com/results?search_query=how+startup+cap+tables+work' }
       ],
       whyMatters: 'If you join an early-stage startup, equity is a large portion of your compensation. Understanding cap tables protects you from predatory terms and explains how future investment rounds will dilute your shares. It empowers you to make informed decisions when evaluating job offers.'
     }
@@ -158,8 +158,8 @@ const CURRICULUM_DATA = {
       desc: 'Mental model for what engineers actually do all day.',
       level: 'Beginner',
       resources: [
-        { type: 'Video', label: 'How Software Works Internally', url: 'https://www.youtube.com/watch?v=ZxXMhynR58E' },
-        { type: 'Book', label: 'Code: The Hidden Language', url: 'https://www.amazon.com/Code-Language-Computer-Hardware-Software/dp/0137909950' }
+        { type: 'Video', label: 'Code.org Series: How Computers & Code Work', url: 'https://www.youtube.com/results?search_query=code.org+how+computers+work' },
+        { type: 'Book', label: 'Code: The Hidden Language', url: 'https://wikipedia.org/wiki/Code:_The_Hidden_Language_of_Computer_Hardware_and_Software' }
       ],
       whyMatters: 'To draft technology agreements or represent tech companies, you must understand the lifecycles of source code, deployment, and version control. Knowing the difference between staging and production environments helps you define performance guarantees. It prevents you from writing unrealistic clauses about system downtime or maintenance.'
     },
@@ -168,8 +168,8 @@ const CURRICULUM_DATA = {
       desc: 'How systems talk to each other.',
       level: 'Beginner',
       resources: [
-        { type: 'Article', label: 'APIs for Non-Technical Lawyers', url: 'https://www.freecodecamp.org/news/what-is-an-api-in-english-please/' },
-        { type: 'Video', label: 'API Integration Basics', url: 'https://www.youtube.com/watch?v=GZvSYJDk-us' }
+        { type: 'Article', label: 'freeCodeCamp: What is an API?', url: 'https://www.freecodecamp.org/news/what-is-an-api-in-english-please/' },
+        { type: 'Video', label: 'freeCodeCamp: API Concepts for Beginners', url: 'https://www.youtube.com/@freecodecamp/search?query=api+introduction' }
       ],
       whyMatters: 'Data privacy regulations like GDPR apply to how systems exchange data. By understanding APIs, you can write precise data processing agreements that describe what fields are shared, where they are stored, and how they are secured. It lets you audit compliance at the technical architecture level.'
     },
@@ -178,8 +178,8 @@ const CURRICULUM_DATA = {
       desc: "What you can and can't do with free code.",
       level: 'Intermediate',
       resources: [
-        { type: 'Article', label: 'Lawyer Guide to GPL & MIT Licenses', url: 'https://choosealicense.com/' },
-        { type: 'Book', label: 'Intellectual Property in Software', url: 'https://www.amazon.com/Intellectual-Property-Software-Licensing-Practices/dp/1118115588' }
+        { type: 'Article', label: 'GitHub: Choose an Open Source License', url: 'https://choosealicense.com/' },
+        { type: 'Book', label: 'Intellectual Property in Software', url: 'https://wikipedia.org/wiki/Open-source_license' }
       ],
       whyMatters: 'Using open-source software (OSS) can expose clients to severe copyright risks if licenses are violated. Understanding the copyleft nature of GPL versus permissive MIT licenses lets you advise clients on compliance during commercial software creation. This is critical for tech mergers, acquisitions, and intellectual property due diligence.'
     },
@@ -188,8 +188,8 @@ const CURRICULUM_DATA = {
       desc: 'The threats your clients will ask you about.',
       level: 'Beginner',
       resources: [
-        { type: 'Video', label: 'Understanding the OWASP Top 10', url: 'https://www.youtube.com/watch?v=34dO6u5uJcI' },
-        { type: 'Book', label: 'The Art of Invisibility', url: 'https://www.amazon.com/Art-Invisibility-Worlds-Conspiracy-Paranoia/dp/0316380504' }
+        { type: 'Video', label: 'OWASP Global: Security Threat Guides', url: 'https://www.youtube.com/@OWASPGlobal/search?query=security+basics' },
+        { type: 'Book', label: 'The Art of Invisibility', url: 'https://wikipedia.org/wiki/Cybersecurity' }
       ],
       whyMatters: "Data breaches lead to massive liabilities, regulatory fines, and class-action lawsuits. Understanding vectors of attack, encryption, and multi-factor authentication allows you to draft robust incident response plans. It helps you ask the right questions when assessing a client's legal compliance with cybersecurity standards."
     },
@@ -198,8 +198,8 @@ const CURRICULUM_DATA = {
       desc: "What AI can and can't do, without the hype.",
       level: 'Beginner',
       resources: [
-        { type: 'Video', label: '3Blue1Brown: Neural Networks', url: 'https://www.3blue1brown.com/lessons/neural-networks' },
-        { type: 'Article', label: 'State of AI Legal Issues Report', url: 'https://crsreports.congress.gov/product/pdf/R/R47456' }
+        { type: 'Video', label: '3Blue1Brown: Neural Networks Playlist', url: 'https://www.3blue1brown.com/lessons/neural-networks' },
+        { type: 'Article', label: 'CRS Report: Artificial Intelligence Legal Frameworks', url: 'https://crsreports.congress.gov/product/pdf/R/R47456' }
       ],
       whyMatters: 'AI raises unprecedented legal issues in copyright, liability, and automated bias. Knowing how models are trained and run lets you draft terms of service that protect training data and address generated output liability. It ensures your client contracts reflect the actual technical capabilities and limitations of AI.'
     },
@@ -208,8 +208,8 @@ const CURRICULUM_DATA = {
       desc: 'How software teams plan and ship.',
       level: 'Beginner',
       resources: [
-        { type: 'Video', label: 'Scrum Method in 10 Minutes', url: 'https://www.youtube.com/watch?v=9TycLR0TqFA' },
-        { type: 'Book', label: 'Clean Agile (Robert Martin)', url: 'https://www.amazon.com/Clean-Agile-Basics-Robert-Martin/dp/0135781868' }
+        { type: 'Video', label: 'Syllabus: Agile & Scrum Frameworks', url: 'https://www.youtube.com/results?search_query=agile+scrum+explained+simply' },
+        { type: 'Book', label: 'Clean Agile (Robert Martin)', url: 'https://wikipedia.org/wiki/Agile_software_development' }
       ],
       whyMatters: 'Agile development impacts how technology consulting agreements should be structured. Unlike traditional waterfall contracts with fixed deliverables, agile requires flexible milestones and iterative acceptance procedures. Understanding this workflow helps you draft contracts that match how developer teams actually collaborate.'
     },
@@ -219,7 +219,7 @@ const CURRICULUM_DATA = {
       level: 'Beginner',
       resources: [
         { type: 'Article', label: 'CTO Role vs VP of Engineering', url: 'https://www.altexsoft.com/blog/cto-vp-engineering/' },
-        { type: 'Book', label: "The Manager's Path (Camille Fournier)", url: 'https://www.amazon.com/Managers-Path-Guide-Tech-Leaders-Managing/dp/1491973897' }
+        { type: 'Book', label: "The Manager's Path (Camille Fournier)", url: 'https://wikipedia.org/wiki/Chief_technology_officer' }
       ],
       whyMatters: 'In disputes over intellectual property theft or failed software delivery, the CTO is often the primary technical witness. Understanding their responsibilities lets you prepare them for depositions and cross-examinations. It also helps you assess who is legally responsible for architecture decisions within a corporate hierarchy.'
     }
@@ -230,8 +230,8 @@ const CURRICULUM_DATA = {
       desc: 'The problem-solving framework designers actually use.',
       level: 'Beginner',
       resources: [
-        { type: 'Video', label: 'IDEO Design Thinking Framework', url: 'https://www.ideou.com/pages/design-thinking' },
-        { type: 'Book', label: 'The Design of Everyday Things', url: 'https://www.amazon.com/Design-Everyday-Things-Revised-Expanded/dp/0465050654' }
+        { type: 'Video', label: 'IDEO U: Design Thinking Process', url: 'https://www.ideou.com/pages/design-thinking' },
+        { type: 'Book', label: 'The Design of Everyday Things', url: 'https://wikipedia.org/wiki/The_Design_of_Everyday_Things' }
       ],
       whyMatters: 'Design thinking is a strategic framework that places customer empathy at the center of business planning. Applying this method helps you design products that address real human needs rather than hypothetical market segments. It bridges the gap between financial projections and user satisfaction.'
     },
@@ -241,7 +241,7 @@ const CURRICULUM_DATA = {
       level: 'Beginner',
       resources: [
         { type: 'Article', label: "Butterick's Practical Typography", url: 'https://practicaltypography.com/' },
-        { type: 'Book', label: 'Thinking with Type (Lupton)', url: 'https://www.amazon.com/Thinking-Type-2nd-revised-expanded/dp/1568989695' }
+        { type: 'Book', label: 'Thinking with Type (Lupton)', url: 'https://thinkingwithtype.com/' }
       ],
       whyMatters: 'Type choices directly affect brand trust, reading speed, and conversion rates. Understanding font weight, kerning, and hierarchy helps you evaluate whether marketing collaterals look professional. It gives you a vocabulary to explain why a landing page feels cluttered or untrustworthy to customers.'
     },
@@ -250,7 +250,7 @@ const CURRICULUM_DATA = {
       desc: 'How to know if users actually like your product.',
       level: 'Intermediate',
       resources: [
-        { type: 'Video', label: 'Nielsen Norman Group Research Methods', url: 'https://www.nngroup.com/articles/ux-research-cheat-sheet/' },
+        { type: 'Video', label: 'NN/g Series: User Research Methods', url: 'https://www.youtube.com/@NNgroup/search?query=ux+research+methods' },
         { type: 'Article', label: 'UX Research Methods Checklist', url: 'https://uxdesign.cc/ux-research-cheat-sheet-933cf23a85b9' }
       ],
       whyMatters: 'Relying on analytics alone tells you what users are doing, but UX research reveals why they do it. Using usability tests, interviews, and cognitive mapping helps you identify friction points in the customer journey. It ensures your business decisions are backed by qualitative insights, not just quantitative guesses.'
@@ -260,7 +260,7 @@ const CURRICULUM_DATA = {
       desc: "Why your eye goes where it goes.",
       level: 'Beginner',
       resources: [
-        { type: 'Video', label: 'Gestalt Principles in Interface Design', url: 'https://www.youtube.com/watch?v=dk5775m84B0' },
+        { type: 'Video', label: 'Syllabus: Visual Hierarchy & Design Rules', url: 'https://www.youtube.com/results?search_query=visual+hierarchy+design+principles' },
         { type: 'Article', label: 'Visual Hierarchy Rules', url: 'https://www.interaction-design.org/literature/article/visual-hierarchy-introducing-the-rules-of-layout' }
       ],
       whyMatters: "Visual hierarchy guides the user's eye to high-value actions, like 'Buy Now' or sign-up buttons. Knowing how size, contrast, and spacing dictate attention helps you design conversion-optimized layouts. It prevents you from cluttering interfaces with competing call-to-actions that paralyze decision-making."
@@ -271,7 +271,7 @@ const CURRICULUM_DATA = {
       level: 'Beginner',
       resources: [
         { type: 'Article', label: 'Interaction Design Color Psychology', url: 'https://www.interaction-design.org/literature/topics/color-theory' },
-        { type: 'Book', label: 'Interaction of Color (Albers)', url: 'https://www.amazon.com/Interaction-Color-50th-Anniversary-Albers/dp/0300179359' }
+        { type: 'Book', label: 'Interaction of Color (Albers)', url: 'https://wikipedia.org/wiki/Color_theory' }
       ],
       whyMatters: "Colors elicit immediate emotional responses that influence purchasing decisions. By understanding the psychology of colors, you can align branding with your company's core values (e.g. blue for trust, red for energy). It helps you maintain a coherent brand voice across different markets and channels."
     },
@@ -280,7 +280,7 @@ const CURRICULUM_DATA = {
       desc: 'How ideas become testable interfaces.',
       level: 'Beginner',
       resources: [
-        { type: 'Video', label: 'Figma Prototyping Tutorial', url: 'https://www.youtube.com/watch?v=H7tN9U9vUzw' },
+        { type: 'Video', label: 'Figma Series: Prototyping for Beginners', url: 'https://www.youtube.com/@Figma/search?query=prototyping+for+beginners' },
         { type: 'Article', label: 'Sketches to Wireframes Blueprint', url: 'https://www.figma.com/resource-library/wireframing-guide/' }
       ],
       whyMatters: 'Creating interactive mockups allows you to validate business concepts before writing a single line of code. It saves huge development costs by uncovering design flaws early in the lifecycle. It teaches you to use low-fidelity sketches for user feedback before committing to high-fidelity designs.'
@@ -290,7 +290,7 @@ const CURRICULUM_DATA = {
       desc: 'Designing for everyone, not just the average user.',
       level: 'Beginner',
       resources: [
-        { type: 'Video', label: 'Web Accessibility (A11y) Intro', url: 'https://www.w3.org/WAI/fundamentals/accessibility-intro/' },
+        { type: 'Video', label: 'W3C: Web Accessibility Introduction', url: 'https://www.w3.org/WAI/fundamentals/accessibility-intro/' },
         { type: 'Article', label: 'WCAG Guidelines Simplified', url: 'https://www.w3.org/WAI/standards-guidelines/wcag/' }
       ],
       whyMatters: 'Web accessibility ensures your digital products are usable by people with disabilities. Designing for accessibility expands your addressable market and protects your company from legal compliance lawsuits under the ADA. It shows that your business values inclusivity and social responsibility.'
@@ -925,68 +925,23 @@ export default function App() {
                             <span className="font-outfit text-[10px] tracking-wide text-[#e8d49a] border border-[#c9b97a]/20 bg-[#c9b97a]/5 px-2.5 py-0.5 rounded-full">
                               {topic.level}
                             </span>
-                            
-                            {/* Resource buttons */}
-                            {topic.resources.map((resource, resIdx) => {
-                              const tooltipKey = `${index}-${resIdx}`;
-                              const isTooltipActive = activeTooltip === tooltipKey;
-                              
-                              return (
-                                <div key={resIdx} className="relative z-30">
-                                  <button
-                                    onClick={(e) => {
-                                      e.stopPropagation();
-                                      setActiveTooltip(isTooltipActive ? null : tooltipKey);
-                                    }}
-                                    className="font-outfit text-[11px] text-white/60 bg-white/[0.02] border border-white/5 px-2.5 py-0.5 rounded-full hover:border-[#c9b97a]/40 hover:text-white transition-all cursor-pointer flex items-center gap-1 shadow-sm"
-                                  >
-                                    <span>
-                                      {resource.type === 'Video' ? '▶' : resource.type === 'Article' ? '📄' : '📚'}
-                                    </span>
-                                    <span>{resource.type}</span>
-                                  </button>
-
-                                  {/* Glass Floating Tooltip Popover */}
-                                  {isTooltipActive && (
-                                    <>
-                                      {/* Invisible click handler to dismiss */}
-                                      <div 
-                                        className="fixed inset-0 z-40" 
-                                        onClick={() => setActiveTooltip(null)} 
-                                      />
-                                      <div className="absolute left-0 mt-2 w-64 p-4 rounded-xl glass-surface border border-[#c9b97a]/30 shadow-[0_10px_25px_-5px_rgba(0,0,0,0.6)] z-50 animate-[scaleIn_200ms_cubic-bezier(0.16,1,0.3,1)_forwards]">
-                                        <div className="flex items-center justify-between border-b border-white/10 pb-2 mb-2">
-                                          <span className="font-outfit text-[10px] uppercase tracking-widest text-[#c9b97a] font-semibold">
-                                            {resource.type} Resource
-                                          </span>
-                                          <button 
-                                            onClick={() => setActiveTooltip(null)} 
-                                            className="text-white/40 hover:text-white text-xs"
-                                          >
-                                            ✕
-                                          </button>
-                                        </div>
-                                        <h4 className="font-outfit text-xs font-semibold text-white leading-tight">
-                                          {resource.label}
-                                        </h4>
-                                        <p className="font-inter text-[10px] text-text-muted mt-1.5 leading-normal">
-                                          Recommended curation path for bridging the gap from {MAJORS_DATA.find(m => m.id === selectedMajor)?.label}.
-                                        </p>
-                                        <a
-                                          href={resource.url}
-                                          target="_blank"
-                                          rel="noopener noreferrer"
-                                          onClick={() => setActiveTooltip(null)}
-                                          className="inline-block mt-3 text-[11px] font-outfit text-[#e8d49a] hover:underline"
-                                        >
-                                          Open Resource ↗
-                                        </a>
-                                      </div>
-                                    </>
-                                  )}
-                                </div>
-                              );
-                            })}
+                                           {/* Resource links */}
+                            {topic.resources.map((resource, resIdx) => (
+                              <a
+                                key={resIdx}
+                                href={resource.url}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="font-outfit text-[11px] text-white/70 bg-white/[0.02] border border-white/5 px-3 py-1.5 rounded-full hover:border-[#c9b97a]/40 hover:text-[#c9b97a] hover:bg-[#c9b97a]/5 transition-all duration-200 flex items-center gap-1.5 shadow-sm"
+                                title={`Open ${resource.type}: ${resource.label}`}
+                              >
+                                <span>
+                                  {resource.type === 'Video' ? '▶' : resource.type === 'Article' ? '📄' : '📚'}
+                                </span>
+                                <span className="font-medium text-white/50">{resource.type}:</span>
+                                <span className="text-white/80 max-w-[140px] truncate sm:max-w-none">{resource.label}</span>
+                              </a>
+                            ))}
                           </div>
 
                           {/* Accordion Expansion (Why this matters) */}
